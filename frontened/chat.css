@@ -1,0 +1,91 @@
+.img-class{
+    display: block;
+    margin: auto;
+    width:80px;
+    height: 80px;
+    border-radius: 20px;;
+}
+/* body{
+    background: linear-gradient(rgb(125, 132, 224) ,rgb(131, 73, 239)); /* Fixed syntax */
+
+.container{
+    position: relative;
+    max-width: 880px;
+    border: 2px solid rgb(44, 43, 43);
+    border-radius: 15px;
+    margin: auto;
+    height: 60vh;
+    overflow-y: auto;
+    padding: 33px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+   
+} 
+.leftmessage{
+    background-color:skyblue;
+    color: #010101;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border-radius: 5px 10px;
+    height: auto;
+    word-wrap: break-word; /* Add this to handle word wrapping */
+    overflow: hidden; 
+    font-size:20px;
+    box-shadow: rgba(191, 184, 184, 0.25) 0px 5px 5px 2px;
+}
+
+.message{
+    background-color: #3a12ff;
+    background-image: linear-gradient(45deg, #ee087f 0%, #DD2A7B 25%, #9858ac 50%, #8134AF 75%, #515BD4 100%);
+    color: #010101;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    box-shadow: rgba(191, 184, 184, 0.25) 0px 5px 5px 2px;
+    border: 2px solid rgb(183, 171, 171);
+    border-radius: 5px 15px;
+    height: auto;
+    word-wrap: break-word; /* Add this to handle word wrapping */
+    overflow: hidden; 
+    font-size:20px;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+#send-container{
+    display: flex; /* Changed from block to flex */
+    margin: auto;
+    max-width: 955px; /* Match container max-width */
+    justify-content: space-between; /* Ensure space between input and button */
+}
+#messageInp{
+    flex: 1; /* Allow the input to take up remaining space */
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #e9ecef;
+    height: 34px;
+    margin-right: 10px; /* Space between input and button */
+   font-size: 16px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 34px;
+    width: 80px; /* Fixed width for button */
+}
+.for-join{
+    text-align: center;
+    color: rgb(113, 113, 113);
+    font-size: 22px;
+    clear: both;
+}
+
+
+
